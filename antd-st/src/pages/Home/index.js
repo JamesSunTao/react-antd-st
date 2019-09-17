@@ -6,7 +6,7 @@ class Home extends React.Component{
     render(){
         return (
             <div className="home-warp">
-                home
+                欢迎进入主页面
             </div>
         )
     }
