@@ -9,35 +9,35 @@ const menuList = [
         children:[
             {
                 title:'按钮',
-                key:'/ui/buttons',
+                key:'/admin/ui/buttons',
             },
             {
                 title:'弹框',
-                key:'/ui/modals',
+                key:'/admin/ui/modals',
             },
             {
                 title:'Loading',
-                key:'/ui/loadings',
+                key:'/admin/ui/loadings',
             },
             {
                 title:'通知提醒',
-                key:'/ui/notification',
+                key:'/admin/ui/notification',
             },
             {
                 title:'全局Message',
-                key:'/ui/messages',
+                key:'/admin/ui/messages',
             },
             {
                 title:'Tab页签',
-                key:'/ui/tabs',
+                key:'/admin/ui/tabs',
             },
             {
                 title:'图片画廊',
-                key:'/ui/gallery',
+                key:'/admin/ui/gallery',
             },
             {
                 title:'轮播图',
-                key:'/ui/carousel',
+                key:'/admin/ui/carousel',
             }
         ]
     },
