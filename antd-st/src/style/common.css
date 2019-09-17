@@ -3,5 +3,5 @@
 }
 .nav-left{width: 15%;min-width: 180px;height: calc(100vh);background: #001529;}
 
-.main{flex: 1;height: calc(100vh);}
+.main{flex: 1;height: calc(100vh);background: gray;}
 .content{position: relative;padding: 20px;}

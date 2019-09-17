@@ -1,7 +1,17 @@
+.header{background: #fff;}
 .header .header-top{height: 60px;line-height: 60px;padding: 0 20px;text-align: right;}
 .header .header-top a{margin-left: 40px;color: #f9c700;}
 .header .breadcrumb{height: 40px;line-height: 40px;padding: 0 20px;border-top: 1px solid #f9c700;}
-.breadcrumb-tit{text-align: center;}
+.breadcrumb-tit{text-align: center;position: relative;}
 .weather{text-align: right;}
 .weather .weather-date{margin-right: 20px;}
-.weather .weather-con{}
+.weather .weather-con img{margin-right: 5px;width: 30px; }
+.breadcrumb-tit::after{
+    position: absolute;
+    content: "";
+    left: 80px;
+    top: 39px;
+    border-left:12px solid transparent;
+    border-right:12px solid transparent;
+    border-top:9px solid #e5e5e5;
+}
