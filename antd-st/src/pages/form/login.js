@@ -58,7 +58,7 @@ class FormLogin extends React.Component{
                                 )
                             }
                         </FormItem>
-                        <FormItem>
+                        <FormItem label="密码">
                             {
                                 getFieldDecorator('userPwd', {
                                     initialValue: '',
