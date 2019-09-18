@@ -2,7 +2,7 @@ import React from 'react'
 import {HashRouter,Route,Switch} from 'react-router-dom'
 import App from './App'
 import Admin from './admin'
-import Login from './pages/Login'
+
 import Buttons from './pages/ui/buttons'
 import Modals from './pages/ui/modals'
 import Loadings from './pages/ui/loadings'
@@ -11,6 +11,7 @@ import Messages from './pages/ui/messages'
 import Tabs from './pages/ui/tabs'
 import Gallery from './pages/ui/gallery'
 import Carousel from './pages/ui/carousel'
+import Login from './pages/form/login'
 
 import Home from './pages/Home';
 import NoMatch from './pages/ui/nomatch'
@@ -22,7 +23,7 @@ export default class IRouter extends React.Component{
             <HashRouter>
                 <App>
                     <Switch>
-                        <Route path="/login" component={Login}></Route>
+                        {/* <Route path="/login" component={Login}></Route> */}
                         <Route path="/admin" render={()=>
                             <Admin> 
                                 <Switch>
@@ -35,6 +36,8 @@ export default class IRouter extends React.Component{
                                     <Route path="/admin/ui/tabs" component={Tabs} />
                                     <Route path="/admin/ui/gallery" component={Gallery} />
                                     <Route path="/admin/ui/carousel" component={Carousel} />
+
+                                    <Route path="/admin/form/login" component={Login} />
                                     <Route component={NoMatch}/>
                                 </Switch>                               
                             </Admin>         

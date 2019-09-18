@@ -20,10 +20,10 @@ export default class Carousels extends React.Component{
                             <img src="/carousel-img/carousel-1.jpg" alt=""/>
                         </div>
                         <div>
-                            <img src="/carousel-img/carousel-1.jpg" alt=""/>
+                            <img src="/carousel-img/carousel-2.jpg" alt=""/>
                         </div>
                         <div>
-                            <img src="/carousel-img/carousel-1.jpg" alt=""/>
+                            <img src="/carousel-img/carousel-3.jpg" alt=""/>
                         </div>
                     </Carousel>
                 </Card>
