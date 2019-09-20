@@ -44,7 +44,7 @@ class NavLeft extends React.Component{
         return (
             <div>
                 <div className="logo">
-                    <NavLink to="/admin/home">
+                    <NavLink to="/">
                         <img src="/assets/logo-ant.svg" alt=""/>
                         <h1>Imooc MS</h1>
                     </NavLink>
