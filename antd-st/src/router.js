@@ -20,6 +20,8 @@ import Rich from './pages/rich'
 
 import City from './pages/city'
 
+import Hooks from './pages/Hooks/'
+
 import Home from './pages/Home';
 import NoMatch from './pages/ui/nomatch'
 
@@ -50,6 +52,8 @@ export default class IRouter extends React.Component{
                        
                                     <Route path="/rich" component={Rich} />
                                     <Route path="/city" component={City} />
+
+                                    <Route path="/hook" component={Hooks} />
                                     <Route component={NoMatch}/>
                                 </Switch>                               
                             </Admin>         
